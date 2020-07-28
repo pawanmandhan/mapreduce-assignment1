@@ -15,3 +15,8 @@
 - mvn install
 - hdfs dfs -put input-duplicates.txt /
 - yarn jar mapreduce-assignment1-0.0.1-SNAPSHOT.jar com.demo.asgn3.DuplicateWordDriver /input-duplicates.txt /output_07
+
+# Assignment3 - max temperature
+- mvn install
+- hdfs dfs -put maxiumum-temperature-dataset.txt /
+- yarn jar mapreduce-assignment1-0.0.1-SNAPSHOT.jar com.demo.asgn4.MaxTemperatureDriver /maxiumum-temperature-dataset.txt /output_09
