@@ -6,7 +6,7 @@ hdfs dfs -put words.txt /
 yarn jar mapreduce-assignment1-0.0.1-SNAPSHOT.jar com.demo.asgn1.WordCountDriver /words.txt /output_04
 
 input:
-C,Java,C#
+ - C,Java,C#
 C,Java,C#
 C,Java,C#,Java
 hadoop,hadoop
